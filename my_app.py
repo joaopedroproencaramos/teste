@@ -16,7 +16,7 @@ class MainWin(QWidget):
         self.initUI()
         self.connects()
         self.show()
-    
+    //função 7 precisa ser alterada
     def set_appear(self): 
         self.setWindowTitle(txt_title)
         self.resize(win_width, win_height)
